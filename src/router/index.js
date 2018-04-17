@@ -9,7 +9,12 @@ export default new Router({
     {
       path: '/',
       name: 'index',
-      component: ()=> import('@/page/index/index.vue')
+      component: ()=> import('@/page/index/index')
+    },
+    {
+      path:'/button',
+      name:'button',
+      component:()=> import('@/page/button/index')
     }
   ]
 })

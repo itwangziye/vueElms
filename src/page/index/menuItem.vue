@@ -24,7 +24,7 @@ export default class MenuItem extends Vue {
   }
 
   handleClick(){
-    this.active = true;
+    this.active = !this.active;
   }
 }
 </script>
